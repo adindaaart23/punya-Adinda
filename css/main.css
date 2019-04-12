@@ -2,6 +2,13 @@ body,html{
     height: 100%;
     margin:0 auto;
 }   
+.link{
+    color:goldenrod;
+    padding: 5px 20px;
+}
+.link:hover{
+    background: orange;
+}
 .section1{
     background: url(../img/maxresdefault.jpg) ;
     width: 100%;
@@ -12,13 +19,28 @@ body,html{
     font-family: bebas neue;
     font-size: 80px;
     color:black;
+    margin: auto;
 }
 .sub-judul{
     font-family: calibri;
     font-size: 40px;
-    color:crimson
+    color:crimson;
+    margin: auto
 }
 .section2{
     background: grey;
     padding:100px 0px
+}
+.section3{
+    background: orange;
+    padding:100px 0px
+}
+.col-warna{
+    background: white;
+}
+.col-warna2{
+    background: yellow;
+}
+.col-warna3{
+    background: grey;
 }
